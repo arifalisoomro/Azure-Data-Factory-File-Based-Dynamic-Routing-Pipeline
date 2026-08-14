@@ -36,15 +36,12 @@ The overall workflow of the pipeline is:
 
 ### Step 1 – Validation
 
-The pipeline first performs a **validation step**.
 
 This ensures that the required conditions are satisfied before continuing with the data ingestion process.
 
 ---
 
 ### Step 2 – Get Metadata
-
-The **Get Metadata Activity** retrieves metadata information from the source storage location.
 
 The metadata activity is used to identify the files available in the specified location.
 
@@ -301,21 +298,6 @@ Processed files are deleted from the source location, reducing the possibility o
 ### Reduced Manual Intervention
 
 Once the file is placed in the designated source location and the pipeline is triggered, the processing can take place automatically.
-
----
-
-## 🚀 Possible Future Enhancements
-
-This pipeline can be further improved by adding:
-
-* Storage Event Trigger for automatic execution when a new file arrives
-* Error handling and retry mechanisms
-* Failure notifications through Logic Apps or email
-* Logging and monitoring
-* Archive instead of deleting processed files
-* Parameterized source and destination paths
-* Additional Switch cases for new file types
-* Metadata-driven configuration tables
 
 ---
 
