@@ -221,13 +221,13 @@ The high-level pipeline architecture is:
 
 The following screenshot shows the complete ADF pipeline flow, including Validation, Get Metadata, ForEach, and Delete activities.
 
-![Main Pipeline](main-pipeline.png)
+![Main Pipeline](Main Pipeline.png)
 
 ### Switch-Based File Routing
 
 The following screenshot shows the Switch Activity inside the ForEach loop. The pipeline uses the file name to determine which Copy Activity should be executed.
 
-![Switch Routing](switch-routing.png)
+![Switch Routing](Switch-Based File Routing.png)
 
 ---
 
